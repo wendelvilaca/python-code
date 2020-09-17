@@ -1,0 +1,14 @@
+#Faça um programa que peça ao usuário valores inteiros para serem armazenados em uma lista.
+
+pergunta = input('Vamos fazer uma soma? Para realizar, aperte a tecla "Enter"')
+v1 = input('Insira o 1° valor inteiro: '))
+v2 = input('Insira o 2° valor inteiro: '))
+
+soma=v1 + v2
+
+print(soma)
+
+
+
+# Os valores devem ser adicionados um a um e toda vez que um valor for adicionado, deve-se perguntar ao usuário se ele deseja adicionar mais elementos.
+# Além da lista, crie duas funções, uma para ordenar os elementos e outra para verificar se um elemento está contido na lista
