@@ -1,0 +1,23 @@
+#Faça um programa que peça ao usuário valores inteiros para serem armazenados em uma lista. 
+#Os valores devem ser adicionados um a um e toda vez que um valor for adicionado, deve-se perguntar ao usuário se ele deseja adicionar mais elementos. 
+#Além da lista, crie duas funções, uma para ordenar os elementos e outra para verificar se um elemento está contido na lista.
+
+def procurarValor(x): #Função para ordenar os elementos.
+    if x in valores:
+        print(f"O valor {x} está na lista")
+    else:
+        print(f"O valor {x} não está na lista")
+
+def ordenaLista():  #Função para verificar se um elemento está contido na lista.
+        valores.sort()
+        print(valores)
+
+valores = []
+
+while True:
+    valores.append(int(input("Digite um valor: ")))
+    resp = str(input("Quer adicionar mais elementos? [s/n]")) #Os valores devem ser adicionados um a um e toda vez que um valor for adicionado, deve-se perguntar ao usuário se ele deseja adicionar mais elementos. 
+    if resp in 'n':
+        break
+procurarValor(3)
+ordenaLista()
