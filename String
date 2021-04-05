@@ -26,3 +26,19 @@ pergunta = input('Insira uma letra para saber se ela é pesquisável: ')
 lista = ['a','b','c','d','e','f']
 a = pergunta in lista
 print(a)
+
+#4Transforma em String
+num = 123
+type(num)
+type(str(num))
+
+#5Transfora em letras maiuscúlas e conta caracteres
+
+a = "Wendel Vilaça de Assis".upper()
+print(a)
+print(len(a))
+
+#6Retira espaços início e fim
+retira_espaco = "  sobrando espaços   ".strip()
+
+print(retira_espaco)
