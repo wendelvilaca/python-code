@@ -5,6 +5,6 @@ f = input('Digite o nome de uma fruta:')
 cesta = ['laranja','banana','maçã','abacaxi']
 
 if f in cesta:
-    print('Ótimo! A Fruta',f,'está na cesta! :)')
+    print('Ótimo! A Fruta %s está na cesta! :)'%(f))
 else:
-    print('Infelizmente a Fruta',f,'não está na cesta!')
+    print('Infelizmente a Fruta %s não está na cesta, temos somente %s.' %(f,cesta))
