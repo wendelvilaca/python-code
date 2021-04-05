@@ -1,0 +1,8 @@
+f = input('Digite o nome de uma fruta:')
+
+cesta = ['laranja','banana','maçã','abacaxi']
+
+if f in cesta:
+    print('Ótimo! A Fruta',f,'está na cesta! :)')
+else:
+    print('Infelizmente a Fruta',f,'não está na cesta!')
