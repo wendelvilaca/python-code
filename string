@@ -1,0 +1,20 @@
+#String estrutura for
+for letter in "python":
+    print('Sring por caractere "for"',letter)
+
+#String com fatiamento
+s = "Wendel"
+s = s [1:4]
+print('As letras selecionadas são:', s)
+
+s = "Wendel"
+s = s [:]
+print('Todo contéudo selecionado é:', s)
+
+s = "Wendel"
+s = s [-6]
+print('As letras de trás para frente:', s)
+
+s = "Wendel"
+s = s [0:]
+print('Todo contéudo selecionado é', s)
