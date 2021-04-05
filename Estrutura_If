@@ -1,3 +1,5 @@
+#Estrutura de If utilizando lista com in true para verdadeiro e False para falso
+
 f = input('Digite o nome de uma fruta:')
 
 cesta = ['laranja','banana','maçã','abacaxi']
