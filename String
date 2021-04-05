@@ -1,8 +1,9 @@
-#String estrutura for
-for letter in "python":
-    print('Sring por caractere "for"',letter)
+#Exemplos de strings e manipulação
+#1°String estrutura for
+for letra in "python":
+    print('"in" em Python por caractere',letra)
 
-#String com fatiamento
+#2°String com fatiamento
 s = "Wendel"
 s = s [1:4]
 print('As letras selecionadas são:', s)
@@ -18,3 +19,10 @@ print('As letras de trás para frente:', s)
 s = "Wendel"
 s = s [0:]
 print('Todo contéudo selecionado é', s)
+
+#3°String com o operador in, exemplo de pesquisa
+
+pergunta = input('Insira uma letra para saber se ela é pesquisável: ')
+lista = ['a','b','c','d','e','f']
+a = pergunta in lista
+print(a)
